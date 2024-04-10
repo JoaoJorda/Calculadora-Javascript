@@ -71,3 +71,7 @@ form .display input{
 .calculator .fim .scientific{
     background-color: #3a7744;
 }
+
+.hide_function{
+    display: none;
+}

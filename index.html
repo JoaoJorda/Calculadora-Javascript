@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="arquivo/calculator.png" type="image/x-icon">
     <title>Calculadora</title>
 </head>
 <body>
@@ -46,8 +47,24 @@
 
                 <div class="fim">
                     <input type="button" value="Clear" onclick="clearNumber()" class="clear">
-                    <input type="button" value="Scientific" onclick="" class="scientific">
+                    <input type="button" value="Scientific" onclick="viewScientific() " class="scientific" >
                 </div>
+
+                <div class="functionScientific hide_function">
+                    <input type="button" value="Sin" onclick="sin()">
+                    <input type="button" value="Cos" onclick="cos() ">
+                    <input type="button" value="Tan" onclick="tan()">
+                    <input type="button" value="Log" onclick="log()">
+                </div>
+
+                <div class="functionScientific hide_function">
+                    <input type="button" value="Exp" onclick=" exp()">
+                    <input type="button" value="(" onclick="addSing('(') ">
+                    <input type="button" value=")" onclick="addSing(')') ">
+                    <input type="button" value="π" onclick="pi()">
+                </div>
+            
+                
 
             </form>
         </div>
